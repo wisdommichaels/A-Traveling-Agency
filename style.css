@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(54, 79, 160);
+    background-color:rgb(220, 220, 213);
     font-family: Arial, sans-serif;
 }
 header{
@@ -23,20 +23,6 @@ header img{
     margin: 5px;
 }
 
-nav{
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
-header nav div{
-    width: 2px;
-    height: 35px;
-    background-color: rgb(11, 3, 123);
-}
-
-nav:hover{
-    color: rgb(255, 94, 0);
-}
 
 .hero-section {
     background-image: url(.//assets/dubai.png); 
@@ -67,25 +53,31 @@ nav:hover{
 
 .button{
     display: inline-block;
-    background-color:  rgb(73, 111, 235);
+    background-color:rgba(26, 203, 106, 0.824);
     color: white;
     font-size: 1.5rem;
     padding: 10px 20px;
     margin-top: 30px;
-    text-decoration: none;
     border-radius: 5px;
+    text-decoration: none;
+}
 
+.ptext{
+    text-align: center;   
+    color: black;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: sans-serif
+    
 }
-h2{
-    display: inline;
-    align-items: center;
-    color: white;
-}
+
 #div1{
     display: flex;
     justify-content: space-around;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 10px;
     gap: 10px;
 }
 #div2{
@@ -93,5 +85,6 @@ h2{
     justify-content: space-around;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 0px;
     gap: 10px;
 }
