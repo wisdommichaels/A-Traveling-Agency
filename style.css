@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:rgb(227, 227, 222);
+    background-color: white;
     font-family: Arial, sans-serif;
 }
 header{
@@ -16,6 +16,10 @@ header{
     align-items: center;
 }
 
+.d-flex a :hover{
+    color: rgb(32, 120, 236);
+}
+
 header img{
     height: 80px;
     border: solid rgb(222, 79, 60);
@@ -25,7 +29,7 @@ header img{
 
 
 .hero-section {
-    background-image: url(.//assets/dubai.png); 
+    background-image: url(.//assets/dub3.png); 
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
