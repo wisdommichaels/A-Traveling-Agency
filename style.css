@@ -91,6 +91,7 @@ header img{
     padding-right: 20px;
     padding-top: 30px;
     gap: 10px;
+    padding-bottom: 30px;
 }
 
 h2{
@@ -175,3 +176,25 @@ h6{
   .back a:hover{ 
     color: aquamarine;
    }
+
+   footer {
+    background-color: rgba(197, 194, 194, 0.436); 
+    color: black; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-right: 90px;
+  }
+  
+  .left-logo img {
+    width: 50px; 
+    margin-left: 80px;
+
+  }
+  
+  .right-logos img {
+    width: 30px;
+    gap: 10px;
+    margin-right: 0px; 
+  }
