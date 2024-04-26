@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:rgb(220, 220, 213);
+    background-color:rgb(227, 227, 222);
     font-family: Arial, sans-serif;
 }
 header{
@@ -68,7 +68,7 @@ header img{
     margin: 0;
     padding-top: 20px;
     font-size: 30px;
-    font-family: sans-serif
+    font-family: sans-serif;
     
 }
 
@@ -85,6 +85,6 @@ header img{
     justify-content: space-around;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 0px;
+    padding-top: 30px;
     gap: 10px;
 }
