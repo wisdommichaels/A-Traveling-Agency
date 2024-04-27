@@ -198,3 +198,30 @@ h6{
     gap: 10px;
     margin-right: 0px; 
   }
+
+  @media (max-width: 680px) {
+    .navbar-brand{
+        width: 100px;
+        height: 50px;
+        display: inline;
+
+
+    }
+.navbar{
+    width: fit-content;
+}
+.hero-section{
+    width: fit-content;
+
+}
+.hero-content{
+    width: fit-content;
+}
+.card{
+    width: fit-content;
+    display: block;
+    margin-bottom: 30px;
+    
+}
+    
+  }
