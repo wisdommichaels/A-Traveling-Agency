@@ -199,6 +199,56 @@ h6{
     margin-right: 0px; 
   }
 
+
+  /* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    /* Navbar */
+    .navbar {
+      padding-left: 10px;
+    }
+  
+    .navbar-brand img {
+      height: 60px; /* Adjust height as needed */
+    }
+  
+    .navbar .d-flex {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    /* Hero section */
+    .hero-section .hero-content {
+      text-align: center;
+    }
+  
+    /* Cards */
+    #div1,
+    #div2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .card {
+      width: 90%; /* Adjust width as needed */
+    }
+  
+    /* Footer */
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .left-logo,
+    .right-logos {
+      text-align: center;
+    }
+  }
+
   @media (max-width: 680px) {
     .navbar-brand{
         width: 100px;
