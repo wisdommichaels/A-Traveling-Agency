@@ -1,277 +1,285 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body{
-    background-color: white;
-    font-family: Arial, sans-serif;
+  background-color: white;
+  font-family: Arial, sans-serif;
 }
 header{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(108, 45, 80);
-    color: azure;
-    padding: 3px 20vh;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(108, 45, 80);
+  color: azure;
+  padding: 3px 20vh;
+  align-items: center;
 }
 
 .d-flex a :hover{
-    color: rgb(32, 120, 236);
+  color: rgb(32, 120, 236);
 }
 
 header img{
-    height: 80px;
-    border: solid rgb(222, 79, 60);
-    border-radius: 50%;
-    margin: 5px;
+  height: 80px;
+  border: solid rgb(222, 79, 60);
+  border-radius: 50%;
+  margin: 5px;
 }
 
 
 .hero-section {
-    background-image: url(.//assets/dub3.png); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
+  background-image: url(.//assets/dub3.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
 }
 
 .hero-content {
-    max-width: 700px;
-    padding: 20px;
-    margin: 20px;
+  max-width: 700px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 .hero-content p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .button{
-    display: inline-block;
-    background-color:rgba(26, 203, 106, 0.824);
-    color: white;
-    font-size: 1.5rem;
-    padding: 10px 20px;
-    margin-top: 30px;
-    border-radius: 5px;
-    text-decoration: none;
+  display: inline-block;
+  background-color:rgba(26, 203, 106, 0.824);
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .ptext{
-    text-align: center;   
-    color: black;
-    margin: 0;
-    padding-top: 20px;
-    font-size: 30px;
-    font-family: sans-serif;
-    
+  text-align: center;   
+  color: black;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  
 }
 
 #div1{
-    display: flex;
-    justify-content: space-around;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    gap: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  gap: 10px;
 }
 #div2{
-    display: flex;
-    justify-content: space-around;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    gap: 10px;
-    padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  gap: 10px;
+  padding-bottom: 30px;
 }
 
 h2{
-    text-align: center;   
-    color: black;
-    margin: 0;
-    padding-top: 50px;
-    font-size: 35px;
-    font-family: sans-serif;
-    
+  text-align: center;   
+  color: black;
+  margin: 0;
+  padding-top: 50px;
+  font-size: 35px;
+  font-family: sans-serif;
+  
 }
 
 h6{
-    text-align: center;   
-    color: black;
-    margin: 0;
-    padding-top: 20px;
-    padding: 10px;
-    font-family: sans-serif;
-    
+  text-align: center;   
+  color: black;
+  margin: 0;
+  padding-top: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+  
 }
 
 #contain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0px 3px 10px rgba(26, 203, 106, 0.564);
-    width: 100vh;
-    padding: 50px;
-    padding-bottom: 35px;
-    margin-left: 350px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 3px 10px rgba(26, 203, 106, 0.564);
+  width: 100vh;
+  padding: 50px;
+  padding-bottom: 35px;
+  margin-left: 350px;
+  margin-bottom: 20px;
 }
 
 #div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    width: 500px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 10px;
-    box-shadow: 0px 3px 10px rgba(26, 203, 106, 0.564);
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 10px rgba(26, 203, 106, 0.564);
+  
+}
+
+.card-text {
+height: 3lh; /* Set the desired fixed height */
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 3; /* Number of lines to show */
+-webkit-box-orient: vertical;
 }
 
 .form-floating{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
-    padding-bottom: 20px;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0px 3px 10px rgba(26, 203, 106, 0.564);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding-bottom: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 3px 10px rgba(26, 203, 106, 0.564);
 }
 .btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    margin-top: px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-top: px;
 }
 .back{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-  }
-  .back a{
-    background-color: rgb(60, 60, 168);
-    color: white;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
-    text-decoration: none;
-    margin-bottom: 40px;
-  }
-  .back a:hover{ 
-    color: aquamarine;
-   }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.back a{
+  background-color: rgb(60, 60, 168);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+.back a:hover{ 
+  color: aquamarine;
+ }
 
-   footer {
-    background-color: rgba(197, 194, 194, 0.436); 
-    color: black; 
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding-right: 90px;
-  }
-  
-  .left-logo img {
-    width: 50px; 
-    margin-left: 80px;
+ footer {
+  background-color: rgba(197, 194, 194, 0.436); 
+  color: black; 
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding-right: 90px;
+}
 
-  }
-  
-  .right-logos img {
-    width: 30px;
-    gap: 10px;
-    margin-right: 0px; 
-  }
+.left-logo img {
+  width: 50px; 
+  margin-left: 80px;
+
+}
+
+.right-logos img {
+  width: 30px;
+  gap: 10px;
+  margin-right: 0px; 
+}
 
 
-  /* Media query for mobile devices */
+/* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
-    /* Navbar */
-    .navbar {
-      padding-left: 10px;
-    }
-  
-    .navbar-brand img {
-      height: 60px; /* Adjust height as needed */
-    }
-  
-    .navbar .d-flex {
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-    }
-  
-    /* Hero section */
-    .hero-section .hero-content {
-      text-align: center;
-    }
-  
-    /* Cards */
-    #div1,
-    #div2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }
-  
-    .card {
-      width: 90%; /* Adjust width as needed */
-    }
-  
-    /* Footer */
-    footer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-    }
-  
-    .left-logo,
-    .right-logos {
-      text-align: center;
-    }
+  /* Navbar */
+  .navbar {
+    padding-left: 10px;
   }
 
-  @media (max-width: 680px) {
-    .navbar-brand{
-        width: 100px;
-        height: 50px;
-        display: inline;
+  .navbar-brand img {
+    height: 60px; /* Adjust height as needed */
+  }
+
+  .navbar .d-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Hero section */
+  .hero-section .hero-content {
+    text-align: center;
+  }
+
+  /* Cards */
+  #div1,
+  #div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 90%; /* Adjust width as needed */
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .left-logo,
+  .right-logos {
+    text-align: center;
+  }
+}
+
+@media (max-width: 680px) {
+  .navbar-brand{
+      width: 100px;
+      height: 50px;
+      display: inline;
 
 
-    }
+  }
 .navbar{
-    width: fit-content;
+  width: fit-content;
 }
 .hero-section{
-    width: fit-content;
+  width: fit-content;
 
 }
 .hero-content{
-    width: fit-content;
+  width: fit-content;
 }
 .card{
-    width: fit-content;
-    display: block;
-    margin-bottom: 30px;
-    
+  width: fit-content;
+  display: block;
+  margin-bottom: 30px;
+  
 }
-    
-  }
+  
+}
